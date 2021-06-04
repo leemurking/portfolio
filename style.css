@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+
+body{
+    background-color: lightblue;
+    background-image: image-set(pogba.jpg);
+}
