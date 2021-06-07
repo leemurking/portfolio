@@ -2,7 +2,7 @@ html{
     margin: 0px;
     height: 100%;
     overflow: scroll;
-    background: url(.//wueh.jpg) no-repeat center center fixed; 
+    background: url(./wueh.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
