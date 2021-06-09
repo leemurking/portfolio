@@ -1,68 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Roboto&display=swap" rel="stylesheet">
-
-
-      <link rel="stylesheet" href="style.css">
-      <title>GRANT OMONDI OKELLO</title>
 </head>
 
 <body>
-     <div class="principal">
-      <ul>
-        <li><a href="" class="tabs">RESIDENCE</a></li>
-        <li><a href="" class="tabs">GALLERY</a></li>
-        <li><a href="" class="tabs">SKILLS</a></li>
-        <li><a href="" class="tabs">CONTACT</a</li>
-      </ul>
-    </div> 
 
-    <div class="h2">
-      <h2>MY PROJECTS</h2>
-      <p>Check out some of my work:
-        <ul>
-        <li><a href="https://github.com/leemurking/hello-world-1.git"></a></li>
-        <p>The above project was my first one at Moringa Schooland i used HTML and CSS to develop it.</p>
-        <li><a href="https://github.com/leemurking/my-first-webpage.git"></a></li>
-        <p>On my second project i used HTML and CSS to create my first webpage.</p>
-        <li><a href="https://github.com/leemurking/my-favourite-things.git"></a></li>
-        <p>This was an assessment to gauge out knowedge on the week's content and i used HTML and CSS to design the project.</p>
-        <p>I am proud of my current progress at Moringa and plan to make the most of my time there.</p>
-        </ul>
-      </p>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JG.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="home" class="container bunner">
+            <div class="row">
+                <div class="col-md-6 head">
+                    <h1>Hello, i'm Grant a software Development student.</h1>
+                </div>
+                <div class="col-md-6">
+                    <img src="./undraw_version_control_re_mg66.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="">
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="section-title">
+                        <span></span>
+                        <h2>About Me</h2>
+                        <p>Down below is everything you need to know about me </p>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+                            <img src="./itsme.jpeg" alt="">
+                        </div>
+                        <div class="col-lg-8 d-flex flex-column align-items-stretch">
+                            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Grant
+                                                    Okello</span></li>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                                <span class="email"><a
+                                                        href="https://github.com/leemurking/my-first-webpage.git">https://github.com/leemurking/my-first-webpage.git</a></span>
+                                            </li>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                                                <span>0768114967</span>
+                                            </li>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi
+                                                    City, Kenya</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                                                <span>19</span>
+                                            </li>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                                                <span>Bachelor</span>
+                                            </li>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span
+                                                    class="email">
+                                                    <a href="jamesgrant964@gmail.com">jamesgrant964@gmail.com</a></span>
+                                            </li>
+                                            <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong>
+                                                <span>Available</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row mt-n4">
+                                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                                        <div class="count-box">
+                                            <span style="font-size: 18px;"><strong><em>Background</em></strong> </span>
+                                            <p><strong></strong> I was born Grant Omondi Okello at Kenyatta Hospitalon
+                                                March 11th 2002.
+                                                I was born to parents Frederick Odero and Mediatrix Tuju, an auditor and
+                                                lecturer at the time. Ive grown up in a loving and caring family where
+                                                most if not all my neccesities have been catered for.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                                        <div class="count-box">
+                                            <i class="bi bi-journal-richtextr" style="color: #8A1AC2;"></i>
+                                            <span style="font-size: 18px;"><strong><em>Educational Background</em></strong></span>
+                                            <p><strong></strong>I started school at ST HANNAH'S primary school in baby
+                                                class. I studied there for my entire pre-school education and somepart
+                                                of my lower primary education and upper primary education. I left ST
+                                                HANNAH'S in class 7 and joined Hill School where i finished my primary
+                                                education. I joined Maranda High School where i completed my high
+                                                schooland was called to the University of Nairobi to pursue a Bachelor
+                                                in Commerce Degree.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                                        <div class="count-box">
+                                            <span style="font-size: 18px;"><strong><em>Hobbies</em></strong></span>
+                                            <p><strong></strong> I love Playing and watching football. I'm a huge Manchester United fan. I also love music swimming and sleeping.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                                        <div class="count-box">
+                                            <span style="font-size: 18px;"><strong><em>My Interests</em></strong></span>
+                                            <p><strong></strong> I love coding and also solving hard tasks in programing
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+            </section>
+
+            <section>
+                <section id="projects" class="about1 container-fluid">
+                    <p class="me"><strong><em>PROJECTS</em></strong></p>
+                    <div class="container pt-5">
+                        <div class="row mb-5">
+                            <div class="col-sm-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="./3.jpeg" alt="Avatar">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1>My first Website</h1>
+                                            <p><a href="https://github.com/leemurking/my-first-webpage.git">MY FIRST WEBSITE!</a></p>
+                                            <p>This was my first created and styled website using both HTML and CSS and im proud of what i did.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="./2.jpeg" alt="Avatar">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1>Adopt my pet</h1>
+                                            <p><a href="https://github.com/leemurking/adopt-my-pet.git">Adopt me please</a></p>
+                                            <p>This was my second website created and styled using HTML and CSS with a little help from Moringa School</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="./hello.png" alt="Avatar">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1>Hello World</h1>
+                                            <p><a href="https://github.com/leemurking/hello-world-1.git">Hello World</a></p>
+                                            <p>My first Project at Moinga school. Its not much its a html styled simple welcome message.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
-    <div class="title">
-      <h1>GRANT OKELLO</h1>
-      <P><em>I am Grant Okello, aKenyan citizen by nationality with an undying love for football.</em></P>
-      <p><strong>I am quiet and soft spoken and am currentlu undertaking a short proffessional course at Moringa School</strong></p>
-      <p>The short course i am undertaking is Software Development.</p>
-        <p>Despite what im doing now, as I mentioned above I am a die hard football fan and support Manchester United.
-          Paul Pogba is my favourite footballer and i love his football.</p>
-          
-    </div>
-
-    <div class="image">
-      <img src="images/images (2).jpeg">
-      <p>An image of Pogba my favourite player</p>
-      <p>Pogba is a Manchester United player</p>
-      <p>I love his playing style and his nature in general</p>
-
-    </div>
-
-    <div class="outro">
-      <p>I hope you've enjoyed your research about me on my website.</p>
-    </div>
-            
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="./4.jpeg" alt="Avatar">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1>favourite things</h1>
+                                            <p><a href="https://github.com/leemurking/my-favourite-things.git">My Favourite Things</a></p>
+                                            <p>Above is a link to a Website I created using HTML and CSS on my favourite things.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="./5.jpeg" alt="Avatar">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1>Cookie Recipe</h1>
+                                            <p><a href="https://github.com/leemurking/cookie-recipe.git">Cookies</a></p>
+                                            <p>This was a project where we were being taught how to fork on github.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="./6.jpeg" alt="Avatar">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1>Future Projects</h1>
+                                            <p>In the future i aspire to work on many more projects cause im enjoying coding and wih to venture more and more into it.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div id="contact" class="container-contact">
+                    <div class="row shadow">
+                      <div class="col-md-6">
+                        <img
+                          src="./me1.jpeg"
+                          style="width:100%; height: 100%;">
+                      </div>
+                      <div class="col-md-6">
+                        <div style="text-align:center">
+                          <h2>Send me a message</h2>
+                        </div>
+                        <form action="">
+                            <p class="we">Grant Okello</p>
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          <label for="lname">Contact</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your phone number..">
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="australia">Kenya</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="canada">Africa</option>
+                            <option value="canada">Others</option>
+                          </select>
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                          <input type="submit" value="Send Message">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+                    crossorigin="anonymous"></script>
 </body>
+
 </html>
