@@ -1,95 +1,158 @@
-html{
-    margin: 0px;
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;  
+    color: rgb(131, 5, 5) !important;  
+}
+
+.navbar ul{
+    padding-left: 70%;
+    font-weight: 500px;
+}
+
+.navbar ul li a:hover{
+    color: brown !important;
+}
+.navbar ul li{
+    margin-left: 40px;
+    font-size: medium;
+}
+
+
+.navbar ul li a{
+    color: black !important;
+}
+
+h1{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 75px;
+}
+
+.bunner{
+    height: 100vh;
+}
+.head{
+    padding: 120px 0 0 0;
+}
+
+.about{
+    background: whitesmoke;
+}
+
+.image img{
+    width: 350px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.email a{
+    text-decoration: none;
+    color: red;
+}
+
+.custom-card{
+    height: 50vh;
+    width: 80%;
+    border: none;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .flip-card-front img{
+      width: 300px;
+      height: 300px;
+  }
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
     height: 100%;
-    overflow: scroll;
-    background: url(./wueh.jpg) no-repeat center center fixed; 
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  /* Style the back side */
+  .flip-card-back {
+    background-color:black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .about1{
+      background: wheat;
+      height: 100%;
+      background: url(./45.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: scroll;
+  }
+
+  .about{
+    background: wheat;
+    height: 100%;
+
+   /* background: url(./10.jpeg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    background-attachment: scroll;
 }
 
-header{
-    text-align: center;
-    font-size: larger;
-    color: white
-}
-
-h1{
-    font-family: 'Limelight', cursive;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    height: 0px;
-    width: 100%; 
-}
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
-}
-ul li{
-    display: inline-block
-}
-
-ul li a{
-    text-decoration: none;
+.container-contact{
+    padding: 40px 15%;
+    font-family: poppins;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #007b5e;
     color: white;
-    /* color: black; */
-    padding: 5px 20px;
-    border: 1px solid white;
-}
-ul li a:hover{
-    background-color: white;
-    color: gray;
-    background-color:gray;
-    /* color: black; */
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
 
-}
+  .we{
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      font-size: medium;
+  }
 
-
-.title{
-    position: absolute;
-    top: 21.5%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.title h1{
-    color: white;
-    /* color: black; */
-    font-size: 75px;
-    font-family:'Limelight', cursive;
-}
-
-p{
-    color: white;
-}
-.h2{
-    position: absolute;
-    float: right;
-    top: 30%;
-    left: 20%;
-    transform: translate(30%,30%);
-}
-h2{
-    color: white;
-    font-family: 'Limelight', cursive;
-    font-size: medium;
-    font-style: italic;
-}
-
-.image{
-    position: inherit;
-    float: left;
-    height: 20px;
-    width: auto;
-}
-
-.outro{
-    position: absolute;
-    top: 90%;
-    left: 50%
-}
+  .me{
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+  }
